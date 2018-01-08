@@ -1,0 +1,29 @@
+Export for milling machine:
+
+dxf options: R14, mm
+
+estlcam
+estlcam.de
+
+
+-------------
+esp-12f pinout
+http://www.esp8266.com/wiki/doku.php?id=esp8266_gpio_pin_allocations
+http://www.esp8266.com/wiki/lib/exe/fetch.php?media=0a-esp8266_datasheet_en_v4.3.pdf
+
+gpio1 - 
+gpio2 - XXXX - pin 2 (orange, internal: 14)
+gpio3 -
+gpio4 - FREE - pin 4 (white, internal: 16)
+gpio5 - FREE - pin 5 (yellow, internal: 24)
+gpio6 -
+gpio7 -
+gpio8 -
+gpio9 -
+gpio10 -
+gpio11 -
+gpio12 -
+gpio13 -
+gpio14 -
+gpio15 -
+gpio16 -
