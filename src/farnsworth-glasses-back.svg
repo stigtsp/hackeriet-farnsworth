@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="214mm"
+   height="214mm"
+   viewBox="0 0 758.26772 758.26771"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="farnsworth-glasses-back.svg"
+   enable-background="new">
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipPath4254"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4256"
+         d="m 0,634.961 606.614,0 L 606.614,0 0,0 0,634.961 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#6d6d6d"
+     bordercolor="#898989"
+     borderopacity="1"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="314.63099"
+     inkscape:cy="334.96117"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer7"
+     showgrid="false"
+     inkscape:window-width="3070"
+     inkscape:window-height="1752"
+     inkscape:window-x="130"
+     inkscape:window-y="48"
+     inkscape:window-maximized="1"
+     borderlayer="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="266.00001,453.00001"
+       orientation="0,1"
+       id="guide4905" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Cut lines"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Torso color"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Body color"
+     style="display:inline">
+    <path
+       style="fill:#000000"
+       d=""
+       id="path4548"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000000"
+       d=""
+       id="path4546"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:label="Body outline"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-294.09449)"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Glasses colour"
+     style="display:inline">
+    <path
+       inkscape:connector-curvature="0"
+       id="path4260-7"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.38422391"
+       d="m 8.85761,384.80322 c 3.13125,0 5.66875,-2.53875 5.66875,-5.66875 0,-3.13125 -2.5375,-5.67 -5.66875,-5.67 -3.13125,0 -5.66875,2.53875 -5.66875,5.67 0,3.13 2.5375,5.66875 5.66875,5.66875 z m 0,370.27503 c 3.13125,0 5.66875,-2.5375 5.66875,-5.6688 0,-3.1312 -2.5375,-5.6687 -5.66875,-5.6687 -3.13125,0 -5.66875,2.5375 -5.66875,5.6687 0,3.1313 2.5375,5.6688 5.66875,5.6688 z m 0,-751.8887817 c -3.13125,0 -5.66875,2.5375 -5.66875,5.66875 0,3.1312497 2.5375,5.6699997 5.66875,5.6699997 3.13125,0 5.67,-2.53875 5.67,-5.6699997 0,-3.13125 -2.53875,-5.66875 -5.67,-5.66875 z M 379.13386,755.07825 c 3.13125,0 5.66875,-2.5375 5.66875,-5.6688 0,-3.1312 -2.5375,-5.6687 -5.66875,-5.6687 -3.13125,0 -5.67,2.5375 -5.67,5.6687 0,3.1313 2.53875,5.6688 5.67,5.6688 z m 370.275,-370.27503 c 3.13125,0 5.67,-2.53875 5.67,-5.66875 0,-3.13125 -2.53875,-5.67 -5.67,-5.67 -3.13125,0 -5.67,2.53875 -5.67,5.67 0,3.13 2.53875,5.66875 5.67,5.66875 z m 0,370.27503 c 3.13125,0 5.67,-2.5375 5.67,-5.6688 0,-3.1312 -2.53875,-5.6687 -5.67,-5.6687 -3.13125,0 -5.67,2.5375 -5.67,5.6687 0,3.1313 2.53875,5.6688 5.67,5.6688 z m 0,-751.8887817 c -3.13125,0 -5.67,2.5375 -5.67,5.66875 0,3.1312497 2.53875,5.6699997 5.67,5.6699997 3.13125,0 5.67,-2.53875 5.67,-5.6699997 0,-3.13125 -2.53875,-5.66875 -5.67,-5.66875 z M 7.08636,-5.3173228e-4 l 744.095,0 c 3.8975,0 7.08625,3.19000003228 7.08625,7.08750003228 l 0,744.0937817 c 0,3.8975 -3.18875,7.0875 -7.08625,7.0875 l -744.095,0 c -3.8975,0 -7.08625,-3.19 -7.08625,-7.0875 l 0,-744.0937817 c 0,-3.8975 3.18875,-7.08750003228 7.08625,-7.08750003228 z" />
+    <path
+       inkscape:connector-curvature="0"
+       style="display:inline;fill:#000000;fill-opacity:0.75294118"
+       d="m 330.28489,336.22578 c 1.30078,-0.051 2.23875,0.24967 3.87048,0.98547 3.14571,1.76448 7.37936,4.88445 10.66772,6.97739 3.91509,2.52207 4.09338,2.7646 4.099,5.58326 1.1e-4,0.0542 -0.003,0.0934 -0.003,0.14612 0.11823,-2.52782 0.59747,-3.23582 2.54553,-5.3921 5.22209,-5.78022 11.61921,-7.07125 17.38476,-3.50793 3.76106,2.81056 7.12063,3.94673 9.71522,6.23034 4.83768,3.28521 6.88647,6.79052 6.9115,11.82679 0.0137,2.76437 -0.32702,3.4368 -3.07398,6.06885 -1.69907,1.628 -5.16433,3.36835 -6.90365,3.7778 -3.89831,0.91771 -6.49978,0.56908 -9.86637,-0.41208 -1.72774,-0.49014 -6.39272,-0.68565 -11.1825,-3.95459 -3.94037,-2.69501 -5.57336,-6.25896 -5.57336,-12.16406 0,-0.51375 0.003,-0.95451 0.009,-1.37439 0.0965,1.74364 -2.07238,1.20093 -5.90086,2.11043 -5.99008,1.08529 -6.94806,1.4646 -11.79026,5.98687 -2.38192,2.47371 -2.04954,3.74157 -6.02067,3.74157 -4.93327,0 -7.1622,-1.34827 -9.36365,-5.66346 -2.03274,-3.98449 -1.78426,-7.80665 0.82397,-12.70019 2.54344,-4.77197 5.09781,-6.63838 10.6897,-7.81129 1.27046,-0.26647 2.18144,-0.42422 2.96192,-0.45483 z"
+       id="path4941"
+       sodipodi:nodetypes="cccccscccssccscccsssscc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Glasses front colour"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Glasses outline"
+     style="display:inline" />
+</svg>
