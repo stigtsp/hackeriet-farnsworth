@@ -28,3 +28,11 @@ Vanligvis er umqtt installert i micropython, for ESP32 måtte jeg paste umqtt.si
 # TODO
 
 Bruke umqtt, og NodeMCU/ESP8266 (må bytte pin fra 25 til noe annet som mapper på NodeMCU)
+
+
+# Takk til
+
+- Gjengen på Attraktor
+- Gjengen på Fablab Nürnberg
+- stigo@hackeriet
+- Alle andre som har gitt råd og tipset!
