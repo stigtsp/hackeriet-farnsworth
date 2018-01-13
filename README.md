@@ -4,31 +4,21 @@ Salves prosjekt som han har jobbet med på Attraktor (Hamburg), Nürnberg
 Fablab (Nürnberg) og på Hackeriet.
 
 
-# Programmering
+For å sette opp:
 
-Vanligvis er umqtt installert i micropython, for ESP32 måtte jeg paste umqtt.simple inn i main.py. import funka ikke når det var en egen fil.
+0. Plugg 16 neopixler til D3, 3v3 og GND
+1. Flash en ESP8266 med micropython
+2. Last opp main.py med ampy eller webrepl_cli.py
 
+	ampy  -p $PORT put main.py
+	
+	webrepl_cli.py -p $PASSWD main.py $IP:/main.py	
 
-## Firmware flash (ESP32)
+3. Reset devicet ved å trykke på reset knappen 
 
-    esptool.py --port /dev/cu.usbmodem1411 --baud 115200 erase_flash
-    esptool.py --port /dev/cu.usbmodem1411 --baud 115200 write_flash -z 0x1000 esp32-20180106-v1.9.3-238-g42c4dd09.bin
-
-
-## Ampy last opp kode
-
-    ampy  -p /dev/cu.usbmodem1411 -b 115200 put main.py
-
-
-## CLI
-
-  screen /dev/cu.usbmodem1411 115200
-
-
-# TODO
-
-Bruke umqtt, og NodeMCU/ESP8266 (må bytte pin fra 25 til noe annet som mapper på NodeMCU)
-
+4. Send mqtt-melding med api kommandoer, f.eks:
+	
+	mosquitto_pub -t '/hackeriet/farnsworth' -h $MQTT_SERVER -m "blink"
 
 # Takk til
 
