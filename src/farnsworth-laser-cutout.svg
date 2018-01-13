@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="214mm"
+   height="214mm"
+   viewBox="0 0 758.26772 758.26771"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="farnsworth-laser-cutout.svg"
+   enable-background="new">
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipPath4254"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4256"
+         d="m 0,634.961 606.614,0 L 606.614,0 0,0 0,634.961 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#6d6d6d"
+     bordercolor="#898989"
+     borderopacity="1"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="577.60805"
+     inkscape:cy="358.80307"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer8"
+     showgrid="false"
+     inkscape:window-width="3070"
+     inkscape:window-height="1752"
+     inkscape:window-x="130"
+     inkscape:window-y="48"
+     inkscape:window-maximized="1"
+     borderlayer="true"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Cut lines"
+     style="display:inline">
+    <path
+       style="opacity:0.68300003;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0 -35.433594 C -19.629922 -35.433594 -35.433594 -19.629922 -35.433594 0 L -35.433594 758.26758 C -35.433594 777.8975 -19.629922 793.70117 0 793.70117 L 758.26758 793.70117 C 777.8975 793.70117 793.70117 777.8975 793.70117 758.26758 L 793.70117 0 C 793.70117 -19.629922 777.8975 -35.433594 758.26758 -35.433594 L 0 -35.433594 z M 8.859375 3.1894531 C 11.990625 3.1894531 14.529297 5.7261719 14.529297 8.8574219 C 14.529297 11.988672 11.990625 14.527344 8.859375 14.527344 C 5.728125 14.527344 3.1894531 11.988672 3.1894531 8.8574219 C 3.1894531 5.7261719 5.728125 3.1894531 8.859375 3.1894531 z M 749.41016 3.1894531 C 752.54141 3.1894531 755.07812 5.7261719 755.07812 8.8574219 C 755.07812 11.988672 752.54141 14.527344 749.41016 14.527344 C 746.27891 14.527344 743.74023 11.988672 743.74023 8.8574219 C 743.74023 5.7261719 746.27891 3.1894531 749.41016 3.1894531 z M 8.859375 743.74023 C 11.990625 743.74023 14.529297 746.27896 14.529297 749.41016 C 14.529297 752.54146 11.990625 755.07812 8.859375 755.07812 C 5.728125 755.07812 3.1894531 752.54146 3.1894531 749.41016 C 3.1894531 746.27896 5.728125 743.74023 8.859375 743.74023 z M 749.41016 743.74023 C 752.54141 743.74023 755.07812 746.27896 755.07812 749.41016 C 755.07812 752.54146 752.54141 755.07812 749.41016 755.07812 C 746.27891 755.07812 743.74219 752.54146 743.74219 749.41016 C 743.74219 746.27896 746.27891 743.74023 749.41016 743.74023 z "
+       id="path6019" />
+    <path
+       style="opacity:0.68300003;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       d="m 749.41011,384.80322 c -3.13125,0 -5.66875,-2.53875 -5.66875,-5.66875 0,-3.13125 2.5375,-5.67 5.66875,-5.67 3.13125,0 5.66875,2.53875 5.66875,5.67 0,3.13 -2.5375,5.66875 -5.66875,5.66875 z"
+       id="path6017" />
+    <path
+       style="opacity:0.68300003;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       d="m 379.13386,755.07825 c -3.13125,0 -5.66875,-2.5375 -5.66875,-5.6688 0,-3.1312 2.5375,-5.6687 5.66875,-5.6687 3.13125,0 5.67,2.5375 5.67,5.6687 0,3.1313 -2.53875,5.6688 -5.67,5.6688 z"
+       id="path6011" />
+    <path
+       style="opacity:0.68300003;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       d="m 8.8588583,384.80322 c -3.13125,0 -5.67,-2.53875 -5.67,-5.66875 0,-3.13125 2.53875,-5.67 5.67,-5.67 3.1312497,0 5.6699997,2.53875 5.6699997,5.67 0,3.13 -2.53875,5.66875 -5.6699997,5.66875 z"
+       id="path6009" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Torso color"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Body color"
+     style="display:inline">
+    <path
+       style="fill:#000000"
+       d=""
+       id="path4548"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000000"
+       d=""
+       id="path4546"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:label="Body outline"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-294.09449)"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Glasses colour"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Glasses front colour"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Glasses outline"
+     style="display:inline" />
+</svg>

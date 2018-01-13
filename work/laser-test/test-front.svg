@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 177.16535 177.16535"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="test-front.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="81.152287"
+     inkscape:cy="119.75868"
+     inkscape:document-units="px"
+     inkscape:current-layer="text4841"
+     showgrid="false"
+     inkscape:window-width="3070"
+     inkscape:window-height="1752"
+     inkscape:window-x="130"
+     inkscape:window-y="48"
+     inkscape:window-maximized="1"
+     inkscape:snap-text-baseline="false"
+     showguides="false"
+     inkscape:snap-center="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-875.19685)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path4260-7"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.09999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       d="m 157.1788,1039.722 c -3.13125,0 -5.66875,-2.5375 -5.66875,-5.6688 0,-3.1312 2.5375,-5.6687 5.66875,-5.6687 3.13125,0 5.66875,2.5375 5.66875,5.6687 0,3.1313 -2.5375,5.6688 -5.66875,5.6688 z m 0,-151.88493 c 3.13125,0 5.66875,2.5375 5.66875,5.66875 0,3.13125 -2.5375,5.67 -5.66875,5.67 -3.13125,0 -5.67,-2.53875 -5.67,-5.67 0,-3.13125 2.53875,-5.66875 5.67,-5.66875 z M 19.987782,1039.722 c -3.13125,0 -5.669999,-2.5375 -5.669999,-5.6688 0,-3.1312 2.538749,-5.6687 5.669999,-5.6687 3.131249,0 5.669999,2.5375 5.669999,5.6687 0,3.1313 -2.53875,5.6688 -5.669999,5.6688 z m 0,-151.88493 c 3.131249,0 5.669999,2.5375 5.669999,5.66875 0,3.13125 -2.53875,5.67 -5.669999,5.67 -3.13125,0 -5.669999,-2.53875 -5.669999,-5.67 0,-3.13125 2.538749,-5.66875 5.669999,-5.66875 z m 138.962268,-3.19 -140.734768,0 c -3.897499,0 -7.086249,3.19 -7.086249,7.0875 l 0,144.08993 c 0,3.8975 3.18875,7.0875 7.086249,7.0875 l 140.734768,0 c 3.8975,0 7.08625,-3.19 7.08625,-7.0875 l 0,-144.08993 c 0,-3.8975 -3.18875,-7.0875 -7.08625,-7.0875 z"
+       sodipodi:nodetypes="sssssssssssssssssssssssssssss" />
+    <g
+       id="g4831"
+       transform="translate(0,11.863758)">
+      <g
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:179.99998474px;line-height:125%;font-family:'URW Palladio L';-inkscape-font-specification:'URW Palladio L, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="text4841">
+        <path
+           d="m 97.762666,930.40576 -12.599999,3.96 c -5.759999,1.8 -10.079999,2.52 -17.639998,3.42 -0.54,0 -1.44,0.18 -2.7,0.36 l 0,6.48 8.099999,0.54 c 4.14,0.36 4.68,1.98 4.68,12.6 l 0,39.41999 c 0,9.72005 -0.9,11.16005 -6.479999,11.52005 l -6.3,0.36 0,6.66 c 0,0 23.219998,-0.54 23.219998,-0.54 3.6,0 12.240003,0.18 24.299993,0.54 l 0,-6.66 -6.29999,-0.36 c -5.58,-0.36 -6.480004,-1.8 -6.480004,-11.52005 l 0,-65.69999 -1.8,-1.08 z m -9.719999,-42.3 c -7.739999,0 -13.679999,5.76 -13.679999,13.32 0,7.56 5.94,13.68 13.499999,13.68 7.38,0 13.500003,-6.12 13.500003,-13.5 0,-7.38 -5.940004,-13.5 -13.320003,-13.5 z"
+           id="path4846"
+           inkscape:connector-curvature="0"
+           style="stroke:#00ff00;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>
