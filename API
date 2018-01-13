@@ -1,0 +1,8 @@
+Messages allowed:
+
+flash
+blink
+reset
+
+json array with 16 rgb triplets
+[[255,255,255],...]
