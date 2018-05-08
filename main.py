@@ -8,15 +8,21 @@ import ubinascii
 from umqtt.robust import MQTTClient
 import sys
 
+with open('farnsworth.json') as fp:
+    config = ujson.loads(fp.read())
+
 station = network.WLAN(network.STA_IF)
- 
+
+
 station.active(True)
-station.connect("hackeriet.no","hackeriet.no")
+station.connect(config['wifi']['ssid'],config['wifi']['psk'])
 
-while not station.isconnected():  
-    machine.idle() 
+while not station.isconnected():
+    machine.idle()
 
-print(station.ifconfig())
+ap_if = network.WLAN(network.AP_IF)
+if ap_if.active():
+  ap_if.active(False)
 
 # Pin 0 is D3 on the NodeMCU, 16 is the number of neopixels
 np = neopixel.NeoPixel(machine.Pin(0), 16)
@@ -35,10 +41,7 @@ def standard(np):
 standard(np)
 time.sleep(2)
 
-SERVER = "iot.eclipse.org"
 CLIENT_ID = ubinascii.hexlify(machine.unique_id())
-TOPIC = b"/hackeriet/farnsworth"
-
 
 def apply_colors(m):
    for i in range(16):
@@ -74,39 +77,20 @@ def blink():
 
 
 def on_receive(t, m):
-    if m == b'flash':
-      flash()
-    elif m == b'blink':
-      blink()
-    elif m == b'reset':
-      machine.reset()
-    else:
-      try:
-        msg = ujson.loads(m)
-        apply_colors(msg)
-      except ValueError:
-        print("JSON error: " + str(m));
-        flash((255,0,0),1)
-      except:
-        flash((128,128,0),1)
-        print("Some Error")
-           
+    flash(times=1)
+    blink()
+    flash(times=1)
 
-def main(server=SERVER):
-    c = MQTTClient(CLIENT_ID, server)
-    # Subscribed messages will be delivered to this callback
-    c.set_callback(on_receive)
-    c.connect()
-    c.subscribe(TOPIC)
-    print("Connected to %s, subscribed to %s topic" % (server, TOPIC))
-    while True:
-        c.check_msg()
-        machine.idle()
+c = MQTTClient(client_id = CLIENT_ID, server = config['mqtt']['server'])
+
+c.set_callback(on_receive)
+
+if not c.connect(clean_session = False):
+    print("Session being set up")
+    c.subscribe(config['mqtt']['topic'])
 
 while True:
-  try:
-    main()
-  except:
-    pass
-  time.sleep(1)
+    c.wait_msg()
+
+c.disconnect()
 
