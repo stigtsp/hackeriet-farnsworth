@@ -11,16 +11,16 @@ For å sette opp:
 2. Konfigurer wifi og mqtt variabler i farnsworth.json
 3. Last opp kode med ampy
 ```shell
-    pip install adafruit-ampy
-    export AMPY_PORT=/dev/ttyUSB0
-    ampy put farnsworth.json farnsworth.json
-	ampy put main.py main.py
+pip install adafruit-ampy
+export AMPY_PORT=/dev/ttyUSB0
+ampy put farnsworth.json farnsworth.json
+ampy put main.py main.py
 ```
 4. Reset devicet ved å trykke på reset knappen 
 
 5. Send mqtt-melding til konfigurert mqtt server og topic:
 ```shell
-	mosquitto_pub -t $MQTT_TOPIC -h $MQTT_SERVER -m "foobar"
+mosquitto_pub -t $MQTT_TOPIC -h $MQTT_SERVER -m "foobar"
 ```
 # Takk til
 
