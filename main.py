@@ -81,7 +81,13 @@ def on_receive(t, m):
     blink()
     flash(times=1)
 
-c = MQTTClient(client_id = CLIENT_ID, server = config['mqtt']['server'])
+c = MQTTClient(client_id = CLIENT_ID,
+               server     = config['mqtt']['server'],
+               user       = config['mqtt']['user'],
+               password   = config['mqtt']['password'],
+               port       = config['mqtt']['port'],
+               ssl        = config['mqtt']['ssl']
+)
 
 c.set_callback(on_receive)
 
