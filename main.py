@@ -1,12 +1,16 @@
+import sys
 import network
 import time
 import machine
-import neopixel
-import upip
-import ujson
 import ubinascii
-from umqtt.robust import MQTTClient
-import sys
+import ujson
+
+import neopixel # for blinky flashy thingy
+
+from umqtt.simple import MQTTClient
+from machine import Timer
+
+
 
 with open('farnsworth.json') as fp:
     config = ujson.loads(fp.read())
@@ -28,8 +32,13 @@ if ap_if.active():
 np = neopixel.NeoPixel(machine.Pin(0), 16)
 
 default = []
-for i in range(8): default.append((255,0,255))
-for i in range(8): default.append((0,255,0))
+fade_i=0
+
+#ecc486 skin
+#135,206,250
+
+for i in range(8): default.append((28, 251, 255))
+for i in range(8): default.append((255, 232, 150))
 
 
 def standard(np):
@@ -39,7 +48,7 @@ def standard(np):
 
 
 standard(np)
-time.sleep(2)
+time.sleep(1)
 
 CLIENT_ID = ubinascii.hexlify(machine.unique_id())
 
@@ -63,6 +72,17 @@ def flash(c=(255,255,255),times=4):
   time.sleep_ms(10)
   apply_colors(default)
 
+def bounce():
+    for i in range(4 * np.n):
+        for j in range(np.n):
+            np[j] = (0, 0, 128)
+        if (i // np.n) % 2 == 0:
+            np[i % np.n] = (0, 0, 0)
+        else:
+            np[np.n - 1 - (i % np.n)] = (0, 0, 0)
+        np.write()
+        time.sleep_ms(60)
+
 def blink():
   for i in range(0, 4 * 256, 8):
     for j in range(np.n):
@@ -74,29 +94,71 @@ def blink():
     np.write()
   apply_colors(default)
 
+def fade_one(i):
+    n = np.n
+    for j in range(n):
+        val = i
+        d = default[j]
+        np[j] = (int(d[0] * (val/255)), int(d[1] * (val/255)),  int(d[2] * (val/255)))
+        np.write()
+
+
+
+def fade_timer(t=False):
+    global fade_i
+    global fade_going
+
+    if not fade_going:
+        return fade_i
+
+    fade_one(abs(fade_i))
+    if fade_i >= 255:
+        fade_i = -255
+    else:
+        fade_i = fade_i+1
+    return fade_i
+    
+
+#timer.init(period=2000, mode=Timer.PERIODIC, callback=lambda t:print(2))
+timer = Timer(-1)
+fade_i=0
+fade_going=True
+timer.init(period=100, mode=Timer.PERIODIC, callback=lambda t: fade_timer(t))
+
+
+
 
 
 def on_receive(t, m):
+    global fade_going
+    fade_going=False
     flash(times=1)
     blink()
+    flash(times=3)
+    blink()
     flash(times=1)
+    fade_going=True
 
-c = MQTTClient(client_id = CLIENT_ID,
-               server     = config['mqtt']['server'],
-               user       = config['mqtt']['user'],
-               password   = config['mqtt']['password'],
-               port       = config['mqtt']['port'],
-               ssl        = config['mqtt']['ssl']
-)
-
-c.set_callback(on_receive)
-
-if not c.connect(clean_session = False):
-    print("Session being set up")
-    c.subscribe(config['mqtt']['topic'])
 
 while True:
-    c.wait_msg()
+    try:
+        c = MQTTClient(client_id = CLIENT_ID,
+                       server     = config['mqtt']['server'],
+                       user       = config['mqtt']['user'],
+                       password   = config['mqtt']['password'],
+                       port       = config['mqtt']['port'],
+                       ssl        = config['mqtt']['ssl']
+        )
+        c.set_callback(on_receive)
+        c.connect()
+        c.subscribe(config['mqtt']['topic'])
+        
+        while True:
+            c.wait_msg()
 
-c.disconnect()
+    except OSError as e:
+        print("Woops, trying to do stuff again\n")
+
+
+
 
