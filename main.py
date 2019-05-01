@@ -115,7 +115,7 @@ def fade_timer(t=False):
     if fade_i >= 255:
         fade_i = -255
     else:
-        fade_i = fade_i+1
+        fade_i = fade_i+2
     return fade_i
     
 
@@ -123,7 +123,7 @@ def fade_timer(t=False):
 timer = Timer(-1)
 fade_i=0
 fade_going=True
-timer.init(period=100, mode=Timer.PERIODIC, callback=lambda t: fade_timer(t))
+timer.init(period=50, mode=Timer.PERIODIC, callback=lambda t: fade_timer(t))
 
 
 
