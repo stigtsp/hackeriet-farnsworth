@@ -31,14 +31,10 @@ if ap_if.active():
 # Pin 0 is D3 on the NodeMCU, 16 is the number of neopixels
 np = neopixel.NeoPixel(machine.Pin(0), 16)
 
-default = []
+
 fade_i=0
-
-#ecc486 skin
-#135,206,250
-
-for i in range(8): default.append((28, 251, 255))
-for i in range(8): default.append((255, 232, 150))
+default =   [(28, 251, 255)]*8+\
+            [(255, 232, 150]*8
 
 
 def standard(np):
